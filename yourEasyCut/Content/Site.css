@@ -1,5 +1,7 @@
 body
 {
+    width:1280px;
+    margin:auto;
     font-size: .85em;
     font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
     color: #232323;
@@ -73,3 +75,41 @@ textarea
 {
     display: none;
 }
+
+/* Styles personnalisé page d'accueil login
+-----------------------------------------------------------*/
+
+#MainLogin
+{
+    margin-top: 100px;;
+    border: thin solid gray;
+    min-height: 500px;
+    border-radius: 10px;
+    background-color: Gray;
+    padding: 10px;
+}
+
+
+
+
+/* Styles personnalisé menu haut
+-----------------------------------------------------------*/
+
+nav#menu-top{
+margin-top:50px;
+background-color:Gray;
+border-radius:5px;
+padding:5px;
+}
+
+nav#menu-top a{
+padding:0 20px;
+color:#fff;
+text-decoration:none
+}
+
+nav#menu-top a:hover{
+color:#00ff0f;
+}
+
+
