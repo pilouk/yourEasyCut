@@ -16,27 +16,64 @@
 </head>
 <body>
     
+    
 
     @using (Html.BeginForm()) {
         @Html.ValidationSummary(true)
         <fieldset class="MainLogin">
             <legend></legend>
-    
+ 
+            <h1>Your Easy Cut</h1>
+
+            <span style="clear:both;display:block;"></span>
+
+            <div id="loginBox">
+                
+                <a id="registerLink" href="">register</a>
+                <br />
+                <br />
+
                 @Html.LabelFor(model => model.UserName)
                 @Html.EditorFor(model => model.UserName)
                 @Html.ValidationMessageFor(model => model.UserName)
 
-    
-
                 @Html.LabelFor(model => model.Password)
                 @Html.EditorFor(model => model.Password)
                 @Html.ValidationMessageFor(model => model.Password)
-    
 
                 @Html.LabelFor(model => model.RememberMe)
                 @Html.EditorFor(model => model.RememberMe)
                 @Html.ValidationMessageFor(model => model.RememberMe)
 
+
+                <input type="submit" value="Login" />
+               
+            </div>
+
+            
+            <p>
+            Cum haec taliaque sollicitas eius aures everberarent expositas
+             semper eius modi rumoribus et patentes, varia animo tum miscente
+              consilia, tandem id ut optimum factu elegit: et Vrsicinum primum
+               ad se venire summo cum honore mandavit ea specie ut pro rerum tunc
+                urgentium captu disponeretur concordi consilio, quibus virium incrementis
+                 Parthicarum gentium a arma minantium impetus frangerentur.
+
+            Quod si rectum statuerimus vel concedere amicis, quidquid
+             velint, vel impetrare ab iis, quidquid velimus, perfecta
+              quidem sapientia si simus, nihil habeat res vitii; sed
+               loquimur de iis amicis qui ante oculos sunt, quos vidimus
+                aut de quibus memoriam accepimus, quos novit vita communis.
+                 Ex hoc numero nobis exempla sumenda sunt, et eorum quidem
+                  maxime qui ad sapientiam proxime accedunt.
+
+            Has autem provincias, quas Orontes ambiens amnis imosque
+             pedes Cassii montis illius celsi praetermeans funditur in
+              Parthenium mare, Gnaeus Pompeius superato Tigrane regnis
+               Armeniorum abstractas dicioni Romanae coniunxit.
+                 
+            </p>
+            
         </fieldset>
     }
 </body>

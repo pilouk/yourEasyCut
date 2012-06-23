@@ -17,31 +17,7 @@ section {
 
 div, h1, form, fieldset, input, textarea
 {
-    margin: 0; padding:0; border:0; outline:0;
-}
-
-/* Styles for basic forms
------------------------------------------------------------*/
-
-legend 
-{
-    font-size:1.2em;
-    font-weight: bold;
-}
-
-textarea 
-{
-    min-height: 75px;
-}
-
-.editor-label 
-{
-    margin: 1em 0 0 0;
-}
-
-.editor-field 
-{
-    margin:0.5em 0 0 0;
+    margin: 0; padding:0; border:0; outline:none;
 }
 
 
@@ -79,30 +55,69 @@ textarea
 
 .MainLogin
 {
+    position:relative;
     border: none;
-    margin-top: 100px;
-    border-radius: 10px;
-    background-color: Gray;
+    margin-top: 50px;
+    border-radius: 10px 10px 10px 10px;
     padding: 10px;
-    
+    background-image:-webkit-linear-gradient(#CFF4FF, white);
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
 }
 
-.MainLogin label
+.MainLogin #loginBox
+{
+    position:absolute;
+    top: 50px;
+    right: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    float:right;
+    clear:right;
+    background-color: white;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+.MainLogin #loginBox label
 {
     float:left;
     clear:left;
+    margin: 4px 20px 0 0;
     width: 100px;
     text-align:right;
 }
 
-
-.MainLogin input
+.MainLogin #loginBox input
 {
-    width:260px;
-    height: 35px;
-    padding: 5px 20px 0px 20px;
-    margin: 0px 0px 20px 0px; 
+    width:150px;
+    padding: 5px 20px 0 5px;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    border: thin solid black;
 }
+
+.MainLogin #loginBox #registerLink
+{
+    text-decoration:none;
+    float:right;
+    clear: right;
+}
+
+.MainLogin h1
+{
+    font-size: 100px;
+    font-family: aerosol;
+    margin: 20px;
+    float: left;
+    clear:left;
+}
+
+.MainLogin p
+{
+    margin: 20px;
+    width: 60%;
+}
+
 
 
 
