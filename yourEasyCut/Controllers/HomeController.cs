@@ -13,7 +13,7 @@ namespace yourEasyCut.Controllers
 
         public ActionResult Index()
         {
-            return Redirect("Account");
+            return View();
             
         }
     }

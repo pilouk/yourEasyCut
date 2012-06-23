@@ -15,15 +15,13 @@ section {
     display: block;
 }
 
+div, h1, form, fieldset, input, textarea
+{
+    margin: 0; padding:0; border:0; outline:0;
+}
+
 /* Styles for basic forms
 -----------------------------------------------------------*/
-
-fieldset 
-{
-    border:1px solid #ddd;
-    padding:0 1.4em 1.4em 1.4em;
-    margin:0 0 1.5em 0;
-}
 
 legend 
 {
@@ -79,16 +77,32 @@ textarea
 /* Styles personnalisé page d'accueil login
 -----------------------------------------------------------*/
 
-#MainLogin
+.MainLogin
 {
-    margin-top: 100px;;
-    border: thin solid gray;
-    min-height: 500px;
+    border: none;
+    margin-top: 100px;
     border-radius: 10px;
     background-color: Gray;
     padding: 10px;
+    
 }
 
+.MainLogin label
+{
+    float:left;
+    clear:left;
+    width: 100px;
+    text-align:right;
+}
+
+
+.MainLogin input
+{
+    width:260px;
+    height: 35px;
+    padding: 5px 20px 0px 20px;
+    margin: 0px 0px 20px 0px; 
+}
 
 
 
