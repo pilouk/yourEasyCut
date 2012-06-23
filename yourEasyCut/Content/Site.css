@@ -26,6 +26,7 @@ div, h1, form, fieldset, input, textarea
 .field-validation-error
 {
     color: #ff0000;
+    
 }
 
 .field-validation-valid
@@ -35,7 +36,7 @@ div, h1, form, fieldset, input, textarea
 
 .input-validation-error
 {
-    border: 1px solid #ff0000;
+    border: 3px solid #ff0000;
     background-color: #ffeeee;
 }
 
